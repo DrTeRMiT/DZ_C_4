@@ -10,7 +10,7 @@ int[] CreateArray(int len)
     Random rnd = new Random();
     for (int i = 0; i < len; i++)
     {
-        arr[i] = rnd.Next(0, 99);
+        arr[i] = rnd.Next(0, 100);
     }
     return arr;
 }
