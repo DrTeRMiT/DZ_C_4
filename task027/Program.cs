@@ -18,5 +18,6 @@ int Sumnum(int number)
 
 Console.Write("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
+int num1 = Math.Abs(num);
 
-Console.WriteLine($"Сумма цифр числа {num} = {Sumnum(num)}");
+Console.WriteLine($"Сумма цифр числа {num1} = {Sumnum(num1)}");
