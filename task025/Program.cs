@@ -21,4 +21,8 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число B: ");
 int b = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine($"Число А в степени В = {Numpow(a, b)}");
+if (b >0)
+{
+    Console.WriteLine($"Число А в степени В = {Numpow(a, b)}");
+}
+else Console.WriteLine("Введено некорректное число В");
